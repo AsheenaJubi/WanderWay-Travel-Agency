@@ -1,0 +1,1 @@
+This project uses optimized online Unsplash images so the site works immediately in Live Server or a browser with internet access. You can replace the image URLs in the HTML files with local images later if your lecturer requires an offline submission.

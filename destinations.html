@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WanderWay Travel Agency - unforgettable journeys around the world.">
+<title>Destinations | WanderWay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html"><i class="fa-solid fa-plane-departure"></i> WanderWay</a>
+    <button class="menu-toggle" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></button>
+    <ul class="nav-links"><li><a class="" href="index.html">Home</a></li><li><a class="active" href="destinations.html">Destinations</a></li><li><a class="" href="packages.html">Tour Packages</a></li><li><a class="" href="gallery.html">Gallery</a></li><li><a class="nav-book" href="contact.html"><i class="fa-solid fa-paper-plane"></i> Book Now</a></li></ul>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container reveal"><span class="eyebrow">Discover more</span><h1>Explore Our Destinations</h1><p>From tropical beaches to historic cities, discover your next adventure.</p></div></section>
+<section class="section">
+<div class="container">
+  <div class="filter-wrap">
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all" data-target="#destinationGrid">All</button>
+      <button class="filter-btn" data-filter="beach" data-target="#destinationGrid">Beach</button>
+      <button class="filter-btn" data-filter="adventure" data-target="#destinationGrid">Adventure</button>
+      <button class="filter-btn" data-filter="city" data-target="#destinationGrid">City</button>
+      <button class="filter-btn" data-filter="nature" data-target="#destinationGrid">Nature</button>
+      <button class="filter-btn" data-filter="cultural" data-target="#destinationGrid">Cultural</button>
+    </div>
+  </div>
+  <div class="destination-grid" id="destinationGrid">
+<article class="card destination-item filterable reveal" data-category="beach"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1000&q=80" alt="Maldives"><span class="badge">Maldives</span></div><div class="card-body"><h3>Maldives</h3><p>A dreamy island escape with crystal-clear lagoons.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 4.9</span><span class="price">From ₹29,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore Maldives</a></div></article><article class="card destination-item filterable reveal" data-category="city cultural"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=80" alt="Paris"><span class="badge">France</span></div><div class="card-body"><h3>Paris</h3><p>Classic architecture, art, cafés and romantic streets.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 4.8</span><span class="price">From ₹59,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore Paris</a></div></article><article class="card destination-item filterable reveal" data-category="city adventure"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1000&q=80" alt="Dubai"><span class="badge">UAE</span></div><div class="card-body"><h3>Dubai</h3><p>Skyline luxury meets desert thrills and rich culture.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 4.8</span><span class="price">From ₹39,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore Dubai</a></div></article><article class="card destination-item filterable reveal" data-category="beach nature cultural"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80" alt="Bali"><span class="badge">Indonesia</span></div><div class="card-body"><h3>Bali</h3><p>Temples, rice terraces and unforgettable island sunsets.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 4.9</span><span class="price">From ₹34,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore Bali</a></div></article><article class="card destination-item filterable reveal" data-category="nature adventure"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80" alt="Switzerland"><span class="badge">Switzerland</span></div><div class="card-body"><h3>Switzerland</h3><p>Alpine peaks, lakes and scenic train journeys.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 5.0</span><span class="price">From ₹99,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore Switzerland</a></div></article><article class="card destination-item filterable reveal" data-category="city cultural"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=80" alt="Tokyo"><span class="badge">Japan</span></div><div class="card-body"><h3>Tokyo</h3><p>A vibrant blend of futuristic energy and tradition.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 4.8</span><span class="price">From ₹69,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore Tokyo</a></div></article><article class="card destination-item filterable reveal" data-category="city"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1496588152823-86ff7695e68f?auto=format&fit=crop&w=1000&q=80" alt="New York"><span class="badge">USA</span></div><div class="card-body"><h3>New York</h3><p>Iconic skylines, neighborhoods, food and entertainment.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 4.7</span><span class="price">From ₹74,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore New York</a></div></article><article class="card destination-item filterable reveal" data-category="city cultural"><div class="image-wrap"><img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1000&q=80" alt="Singapore"><span class="badge">Singapore</span></div><div class="card-body"><h3>Singapore</h3><p>Smart-city wonders, gardens, food and family fun.</p><div class="card-meta"><span class="rating"><i class="fa-solid fa-star"></i> 4.8</span><span class="price">From ₹45,999</span></div><a class="btn btn-blue" style="margin-top:15px;width:100%" href="contact.html#booking">Explore Singapore</a></div></article></div></div></section></main>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><i class="fa-solid fa-plane-departure"></i> WanderWay</div>
+        <p>Making your journeys unforgettable with thoughtfully planned experiences, trusted service and destinations worth remembering.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a><a href="destinations.html">Destinations</a>
+          <a href="packages.html">Tour Packages</a><a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <div class="footer-links"><a href="contact.html">Contact</a><a href="contact.html#booking">Booking</a><a href="destinations.html">Travel Guide</a></div>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <p><i class="fa-solid fa-envelope"></i> hello@wanderway.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2026 WanderWay Travel Agency. All Rights Reserved.</div>
+  </div>
+</footer>
+<button class="to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="js/script.js"></script>
+</body>
+</html>

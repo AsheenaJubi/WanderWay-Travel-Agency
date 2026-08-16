@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WanderWay Travel Agency - unforgettable journeys around the world.">
+<title>Gallery | WanderWay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html"><i class="fa-solid fa-plane-departure"></i> WanderWay</a>
+    <button class="menu-toggle" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></button>
+    <ul class="nav-links"><li><a class="" href="index.html">Home</a></li><li><a class="" href="destinations.html">Destinations</a></li><li><a class="" href="packages.html">Tour Packages</a></li><li><a class="active" href="gallery.html">Gallery</a></li><li><a class="nav-book" href="contact.html"><i class="fa-solid fa-paper-plane"></i> Book Now</a></li></ul>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container reveal"><span class="eyebrow">Travel moments</span><h1>See the World Through Us</h1><p>A collection of places, people and moments that make every journey special.</p></div></section>
+<section class="section">
+<div class="container">
+<div class="filter-wrap"><div class="filters reveal">
+<button class="filter-btn active" data-filter="all" data-target="#galleryGrid">All</button>
+<button class="filter-btn" data-filter="beaches" data-target="#galleryGrid">Beaches</button>
+<button class="filter-btn" data-filter="mountains" data-target="#galleryGrid">Mountains</button>
+<button class="filter-btn" data-filter="cities" data-target="#galleryGrid">Cities</button>
+<button class="filter-btn" data-filter="adventure" data-target="#galleryGrid">Adventure</button>
+</div></div>
+<div class="gallery-grid" id="galleryGrid">
+<article class="gallery-item filterable reveal" data-category="beaches"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85" alt="Tropical beach"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="mountains"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85" alt="Mountain lake"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="cities"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=85" alt="Paris streets"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="adventure"><img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=1200&q=85" alt="Desert adventure"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="beaches"><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=85" alt="Maldives lagoon"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="cities"><img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=85" alt="Dubai skyline"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="mountains"><img src="https://images.unsplash.com/photo-1486911278844-a81c5267e227?auto=format&fit=crop&w=1200&q=85" alt="Alpine landscape"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="adventure"><img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=85" alt="Hiking trail"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="cities"><img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=85" alt="Tokyo at night"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="beaches"><img src="https://images.unsplash.com/photo-1505881502353-a1986add3762?auto=format&fit=crop&w=1200&q=85" alt="Island getaway"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="adventure"><img src="https://images.unsplash.com/photo-1517825738774-7de9363ef735?auto=format&fit=crop&w=1200&q=85" alt="Outdoor adventure"><span class="gallery-overlay"></span></article><article class="gallery-item filterable reveal" data-category="cities"><img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=85" alt="Singapore skyline"><span class="gallery-overlay"></span></article>
+</div></div></section>
+</main>
+<div class="lightbox" aria-label="Image viewer">
+  <button class="lightbox-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+  <img src="" alt="Expanded gallery image">
+  <button class="lightbox-next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><i class="fa-solid fa-plane-departure"></i> WanderWay</div>
+        <p>Making your journeys unforgettable with thoughtfully planned experiences, trusted service and destinations worth remembering.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a><a href="destinations.html">Destinations</a>
+          <a href="packages.html">Tour Packages</a><a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <div class="footer-links"><a href="contact.html">Contact</a><a href="contact.html#booking">Booking</a><a href="destinations.html">Travel Guide</a></div>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <p><i class="fa-solid fa-envelope"></i> hello@wanderway.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2026 WanderWay Travel Agency. All Rights Reserved.</div>
+  </div>
+</footer>
+<button class="to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="js/script.js"></script>
+</body>
+</html>

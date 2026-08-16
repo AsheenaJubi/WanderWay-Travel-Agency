@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WanderWay Travel Agency - unforgettable journeys around the world.">
+<title>Contact & Booking | WanderWay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html"><i class="fa-solid fa-plane-departure"></i> WanderWay</a>
+    <button class="menu-toggle" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></button>
+    <ul class="nav-links"><li><a class="" href="index.html">Home</a></li><li><a class="" href="destinations.html">Destinations</a></li><li><a class="" href="packages.html">Tour Packages</a></li><li><a class="" href="gallery.html">Gallery</a></li><li><a class="nav-book" href="contact.html"><i class="fa-solid fa-paper-plane"></i> Book Now</a></li></ul>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container reveal"><span class="eyebrow">Let's plan together</span><h1>Contact / Booking</h1><p>Share your travel plans and our experts will help turn them into an unforgettable journey.</p></div></section>
+<section class="section" id="booking">
+<div class="container contact-layout">
+<aside class="contact-info reveal">
+  <span class="eyebrow">Get in touch</span><h2>We're here to help.</h2><p>Have a question, special request or a dream destination in mind? Reach out anytime.</p>
+  <div class="info-row"><i class="fa-solid fa-location-dot"></i><div><strong>Address</strong><span>21 Ocean Avenue, Chennai, India</span></div></div>
+  <div class="info-row"><i class="fa-solid fa-phone"></i><div><strong>Phone</strong><span>+91 98765 43210</span></div></div>
+  <div class="info-row"><i class="fa-solid fa-envelope"></i><div><strong>Email</strong><span>hello@wanderway.com</span></div></div>
+  <div class="info-row"><i class="fa-regular fa-clock"></i><div><strong>Working Hours</strong><span>Mon – Sat: 9:00 AM – 7:00 PM</span></div></div>
+  <div class="socials"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+</aside>
+<div class="form-card reveal">
+  <h2>Book Your Journey</h2>
+  <form id="bookingForm">
+    <div class="form-grid">
+      <div class="form-group"><label>Full Name *</label><input name="name" required placeholder="Your full name"></div>
+      <div class="form-group"><label>Email *</label><input name="email" type="email" required placeholder="you@example.com"></div>
+      <div class="form-group"><label>Phone Number *</label><input name="phone" required placeholder="+91 98765 43210"></div>
+      <div class="form-group"><label>Destination *</label><select name="destination" required><option value="">Choose destination</option><option>Maldives</option><option>Paris</option><option>Dubai</option><option>Bali</option><option>Switzerland</option><option>Tokyo</option><option>New York</option><option>Singapore</option></select></div>
+      <div class="form-group"><label>Tour Package *</label><select name="package" required><option value="">Choose package</option><option>Maldives Escape</option><option>Dubai Explorer</option><option>Bali Adventure</option><option>Paris Dream</option><option>Switzerland Experience</option><option>Singapore Discovery</option></select></div>
+      <div class="form-group"><label>Travel Date *</label><input name="travelDate" type="date" required></div>
+      <div class="form-group"><label>Number of Travelers *</label><input name="travelers" type="number" min="1" max="30" required placeholder="2"></div>
+      <div class="form-group full"><label>Special Requests</label><textarea name="requests" placeholder="Tell us about dietary needs, celebrations or preferences..."></textarea></div>
+      <div class="form-group full"><button class="btn btn-primary" type="submit">Submit Booking <i class="fa-solid fa-paper-plane"></i></button></div>
+    </div>
+  </form>
+  <div class="success" id="bookingSuccess">🎉 Booking request submitted successfully! Our travel expert will contact you shortly.</div>
+</div>
+</div></section>
+
+<section class="section small-contact" style="background:#f7fbfe">
+<div class="container">
+<div class="section-head reveal"><span class="eyebrow">Questions?</span><h2>Send us a message</h2><p>We'll get back to you as soon as possible.</p></div>
+<div class="form-card reveal">
+<form id="contactForm"><div class="form-grid">
+<div class="form-group"><label>Name *</label><input required name="name" placeholder="Your name"></div>
+<div class="form-group"><label>Email *</label><input required type="email" name="email" placeholder="you@example.com"></div>
+<div class="form-group full"><label>Subject *</label><input required name="subject" placeholder="How can we help?"></div>
+<div class="form-group full"><label>Message *</label><textarea required name="message" placeholder="Write your message..."></textarea></div>
+<div class="form-group full"><button class="btn btn-blue" type="submit">Send Message <i class="fa-solid fa-arrow-right"></i></button></div>
+</div></form>
+<div class="success" id="contactSuccess">✓ Message sent successfully! We'll get back to you soon.</div>
+</div></div></section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><i class="fa-solid fa-plane-departure"></i> WanderWay</div>
+        <p>Making your journeys unforgettable with thoughtfully planned experiences, trusted service and destinations worth remembering.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a><a href="destinations.html">Destinations</a>
+          <a href="packages.html">Tour Packages</a><a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <div class="footer-links"><a href="contact.html">Contact</a><a href="contact.html#booking">Booking</a><a href="destinations.html">Travel Guide</a></div>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <p><i class="fa-solid fa-envelope"></i> hello@wanderway.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2026 WanderWay Travel Agency. All Rights Reserved.</div>
+  </div>
+</footer>
+<button class="to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="js/script.js"></script>
+</body>
+</html>
